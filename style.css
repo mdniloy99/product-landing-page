@@ -1,0 +1,140 @@
+* {
+    padding: 0;
+    margin: 5px;
+    ;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    background-color: #0260bf;
+
+}
+
+/* header part Start */
+ul,
+ol {
+    list-style: none;
+
+
+}
+
+a {
+    text-decoration: none;
+    color: white;
+
+}
+
+.header_part {
+    height: 80px;
+    width: 100%;
+
+
+}
+
+.gap_area {
+    max-width: 85%;
+    margin: auto;
+}
+
+.navigation {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.menu ul {
+    display: flex;
+    column-gap: 10px;
+
+}
+
+.menu ul li a {
+    padding: 10px 15px;
+    display: block;
+
+}
+
+.menu ul li {
+    position: relative;
+
+}
+
+.menu ul li a:hover {
+    background: white;
+    color: black;
+    border-radius: 10px;
+
+}
+
+/* Header Part End  */
+
+/* Hero part css Start */
+
+
+.hero_part {
+    padding: 20px 0;
+
+
+}
+
+.hero_con_main {
+    display: flex;
+    align-items: center;
+
+}
+
+.hero_con h2 {
+    font-size: 35px;
+    padding: 50px 0 0;
+    color: #fff;
+
+}
+
+.hero_con h1 {
+    font-size: 70px;
+    color: #fff;
+}
+
+.hero_con p {
+    font-size: 18px;
+    padding: 40px 0;
+    color: #fff;
+}
+
+.hero_con_btn {
+    width: 200px;
+    height: 50px;
+    background: white;
+    display: block;
+    border-radius: 50px;
+    color: black;
+    text-align: center;
+    line-height: 50px;
+    font-size: 17px;
+
+
+}
+
+.hero_con,
+.hero_img {
+    width: 50%;
+
+}
+
+.hero_img {
+    text-align: right;
+
+}
+
+/* Hero part css End */
+/* <!-- footer part  css Start --> */
+
+.footer {
+    width: 100%;
+
+}
+
+.footer_img {
+    width: max-content;
+    margin: auto;
+
+}
+
+/* <!-- footer part css End --> */
