@@ -12,6 +12,7 @@ body {
     height: 100%;
     background-color: #0260bf;
     color: #FFFFFF;
+    transition: .3s all ease;
 }
 
 .gap_area {
@@ -108,10 +109,12 @@ ol {
 .hero_img {
     text-align: right;
     margin-left: auto;
+    transition: .3s all ease;
 }
 
 .hero_img img {
     width: 100%;
+    transition: .3s all ease;
 }
 /* hero part end */
 
